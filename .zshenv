@@ -1,0 +1,2 @@
+ZDOTTDIR=$HOME/.config/zsh
+
