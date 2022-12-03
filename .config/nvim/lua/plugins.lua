@@ -26,6 +26,7 @@ require('packer').startup(function()
     -- use "famiu/bufdelete.nvim"
     use 'kazhala/close-buffers.nvim'
     use "terrortylor/nvim-comment"
+    use "lukas-reineke/indent-blankline.nvim"
 end)
 
 

@@ -25,6 +25,12 @@ _comp_options+=(globdots)		# Include hidden files.
 bindkey -v
 export KEYTIMEOUT=1
 
+# alias'
+#
+alias mint='source ~/code/py-finance/venv/bin/activate; cd ~/code/py-finance; python3 main.py'
+alias mint1='python ~/code/py-finance/main.py'
+alias account='cd ~/code/py-finance/; nvim main.py'
+
 # Use vim keys in tab complete menu:
 bindkey -M menuselect 'h' vi-backward-char
 bindkey -M menuselect 'k' vi-up-line-or-history

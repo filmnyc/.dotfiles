@@ -17,4 +17,4 @@ vim.o.cursorline = true
 vim.o.scrolloff = 3
 vim.o.numberwidth = 4
 vim.wo.cursorline = true
-vim.opt.clipboard = unnamedplus
+vim.opt.clipboard=unnamedplus

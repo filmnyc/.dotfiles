@@ -36,8 +36,8 @@ keymap('n', '<leader>w', ':w<CR>', opts)
 keymap('n', '<leader>q', ':q<CR>', opts)
 
 -- paste last saved (not delete)
-keymap('n', ',p', '"0p', opts)
-keymap('n', ',P', '"0P', opts)
+--keymap('n', ',p', '"0p', opts)
+-- keymap('n', ',P', '"0P', opts)
 
 -- add blank row in normal
 keymap('n', '<leader>o', 'm`o<Esc>``', opts)
@@ -57,5 +57,6 @@ keymap('n', '<leader>ff', '<cmd>lua require(\'telescope.builtin\').find_files()<
 keymap('n', '<leader>fg', '<cmd>lua require(\'telescope.builtin\').live_grep()<CR>', opts)
 keymap('n', '<leader>fb', '<cmd>lua require(\'telescope.builtin\').buffers()<CR>', opts)
 keymap('n', '<leader>fh', '<cmd>lua require(\'telescope.builtin\').help_tags()<CR>', opts)
+
 
 
